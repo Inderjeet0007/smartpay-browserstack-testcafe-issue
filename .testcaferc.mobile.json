@@ -4,7 +4,7 @@
   "skipUncaughtErrors": true,
   "pageLoadTimeout": 40000,
   "browserInitTimeout": 300000,
-  "hostname": "localhost",
+  "hostname": "bs-local.com",
   "quarantineMode": true,
   "concurrency": 1,
   "speed": 0.8,
