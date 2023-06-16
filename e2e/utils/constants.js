@@ -2,7 +2,8 @@ export const env = "dev";
 export const remote = true;
 export const API_ENDPOINT = "https://api.smartpay.re";
 
-export const WEB_URL = "https://checkout.smartpay.re";
+// export const WEB_URL = "https://checkout.smartpay.re";
+export const WEB_URL = "https://browserstack.com";
 
 export const PRIVATE_KEY =
   env === "prod"
