@@ -69,8 +69,8 @@ jobs:
             BROWSERSTACK_NETWORK_LOGS: "true"
           command: |
             set -euxo pipefail
-            echo 'export BROWSERSTACK_BUILD_ID="${CIRCLE_USERNAME} test Checkout"' >> $BASH_ENV;
-            echo 'export BROWSERSTACK_TEST_RUN_NAME="Checkout tests"' >> $BASH_ENV;
+            echo 'export BROWSERSTACK_BUILD_ID="TestCafe Checkout"' >> $BASH_ENV;
+            echo 'export BROWSERSTACK_TEST_RUN_NAME="Checking on iPhone"' >> $BASH_ENV;
             echo 'export BROWSERSTACK_TIMEZONE="Tokyo"' >> $BASH_ENV;
             source $BASH_ENV
 
