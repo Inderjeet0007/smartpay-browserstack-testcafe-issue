@@ -7,7 +7,6 @@
   "hostname": "bs-local.com",
   "quarantineMode": true,
   "concurrency": 1,
-  "speed": 0.8,
   "reporter": [
     {
       "name": "spec"
