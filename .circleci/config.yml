@@ -62,7 +62,7 @@ jobs:
           at: .
       - run:
           name: "Start Test"
-          environment:
+          # environment:
             # BROWSERSTACK_USE_AUTOMATE: "1"
             # BROWSERSTACK_PROJECT_NAME: "Checkout"
             # BROWSERSTACK_CONSOLE: "warnings"
