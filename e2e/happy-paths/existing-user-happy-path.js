@@ -38,9 +38,9 @@ test('Existing user - Happy path', async (t) => {
     .expect(Selector('#article-header').innerText)
     .eql('Thank you, Sourav!')
     .navigateTo("https://browserstack.com")
-    .click('.product-card-live')
-    // .typeText('#live-form-url', 'www.google.com')
-    // .click('#live-form-submit-btn');
+    .click('#primary-menu-toggle')
+    .click('#product-menu-toggle-responsive')
+    .click('#product-responsive > li:nth-child(3) > a')
     
 });
 
