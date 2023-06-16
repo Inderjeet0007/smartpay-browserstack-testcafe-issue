@@ -3,7 +3,7 @@ export const remote = true;
 export const API_ENDPOINT = "https://api.smartpay.re";
 
 // export const WEB_URL = "https://checkout.smartpay.re";
-export const WEB_URL = "https://browserstack.com";
+export const WEB_URL = "https://devexpress.github.io/testcafe/example/";
 
 export const PRIVATE_KEY =
   env === "prod"
