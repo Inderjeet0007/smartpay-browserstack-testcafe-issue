@@ -63,14 +63,11 @@ jobs:
       - run:
           name: "Start Test"
           environment:
-            BROWSERSTACK_USE_AUTOMATE: "1"
-            BROWSERSTACK_PROJECT_NAME: "Checkout"
-            BROWSERSTACK_CONSOLE: "warnings"
+            # BROWSERSTACK_USE_AUTOMATE: "1"
+            # BROWSERSTACK_PROJECT_NAME: "Checkout"
+            # BROWSERSTACK_CONSOLE: "warnings"
           command: |
             set -euxo pipefail
-            echo 'export BROWSERSTACK_BUILD_ID="${CIRCLE_USERNAME} test Checkout"' >> $BASH_ENV;
-            echo 'export BROWSERSTACK_TEST_RUN_NAME="Checkout tests"' >> $BASH_ENV;
-            echo 'export BROWSERSTACK_TIMEZONE="Tokyo"' >> $BASH_ENV;
             source $BASH_ENV
 
             yarn smoke:<< parameters.browser >>
